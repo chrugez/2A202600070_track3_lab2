@@ -1,0 +1,8 @@
+langgraph>=0.2.50
+openai>=1.51.0
+python-dotenv>=1.0.1
+redis>=5.0.8
+chromadb>=0.5.11
+streamlit>=1.39.0
+pytest>=8.3.3
+

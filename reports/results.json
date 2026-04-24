@@ -1,0 +1,547 @@
+{
+  "variants": {
+    "baseline": [
+      {
+        "id": 1,
+        "scenario": "Programming preference recall",
+        "response": "Bạn có thể bắt đầu với FastAPI, Django, Node.js Express hoặc Spring tùy mục tiêu học backend.",
+        "match_score": 0.5,
+        "relevance": 3.0,
+        "satisfaction": 3.0,
+        "pass": true,
+        "estimated_tokens": 29,
+        "metrics": {
+          "token_breakdown": {
+            "current_query": 6,
+            "short_term": 6
+          },
+          "context_utilization": 0.25,
+          "memory_required": false,
+          "memory_hits": 0
+        }
+      },
+      {
+        "id": 2,
+        "scenario": "Async confusion episode recall",
+        "response": "Async/await giúp xử lý bất đồng bộ. `await` tạm dừng cho đến khi tác vụ hoàn thành.",
+        "match_score": 0.0,
+        "relevance": 1.0,
+        "satisfaction": 1.0,
+        "pass": false,
+        "estimated_tokens": 30,
+        "metrics": {
+          "token_breakdown": {
+            "current_query": 15,
+            "short_term": 38
+          },
+          "context_utilization": 0.25,
+          "memory_required": false,
+          "memory_hits": 0
+        }
+      },
+      {
+        "id": 3,
+        "scenario": "Response style preference",
+        "response": "Decorator là một kỹ thuật để bọc thêm hành vi quanh một hàm.",
+        "match_score": 0.5,
+        "relevance": 3.0,
+        "satisfaction": 3.0,
+        "pass": true,
+        "estimated_tokens": 19,
+        "metrics": {
+          "token_breakdown": {
+            "current_query": 5,
+            "short_term": 60
+          },
+          "context_utilization": 0.25,
+          "memory_required": false,
+          "memory_hits": 0
+        }
+      },
+      {
+        "id": 4,
+        "scenario": "Conflict update allergy",
+        "response": "Mình đang dựa vào đoạn hội thoại hiện tại để tiếp tục trả lời.",
+        "match_score": 0.0,
+        "relevance": 1.0,
+        "satisfaction": 1.0,
+        "pass": false,
+        "estimated_tokens": 20,
+        "metrics": {
+          "token_breakdown": {
+            "current_query": 7,
+            "short_term": 7
+          },
+          "context_utilization": 0.25,
+          "memory_required": false,
+          "memory_hits": 0
+        }
+      },
+      {
+        "id": 5,
+        "scenario": "AI agents learning preference",
+        "response": "Mình đang dựa vào đoạn hội thoại hiện tại để tiếp tục trả lời.",
+        "match_score": 0.5,
+        "relevance": 3.0,
+        "satisfaction": 3.0,
+        "pass": true,
+        "estimated_tokens": 20,
+        "metrics": {
+          "token_breakdown": {
+            "current_query": 8,
+            "short_term": 107
+          },
+          "context_utilization": 0.25,
+          "memory_required": false,
+          "memory_hits": 0
+        }
+      },
+      {
+        "id": 6,
+        "scenario": "Semantic retrieval for async concept",
+        "response": "Async/await giúp xử lý bất đồng bộ. `await` tạm dừng cho đến khi tác vụ hoàn thành.",
+        "match_score": 0.0,
+        "relevance": 1.0,
+        "satisfaction": 1.0,
+        "pass": false,
+        "estimated_tokens": 30,
+        "metrics": {
+          "token_breakdown": {
+            "current_query": 7,
+            "short_term": 128
+          },
+          "context_utilization": 0.25,
+          "memory_required": false,
+          "memory_hits": 0
+        }
+      },
+      {
+        "id": 7,
+        "scenario": "Mixed recommendation",
+        "response": "Bạn có thể bắt đầu với FastAPI, Django, Node.js Express hoặc Spring tùy mục tiêu học backend.",
+        "match_score": 0.5,
+        "relevance": 3.0,
+        "satisfaction": 3.0,
+        "pass": true,
+        "estimated_tokens": 29,
+        "metrics": {
+          "token_breakdown": {
+            "current_query": 10,
+            "short_term": 149
+          },
+          "context_utilization": 0.25,
+          "memory_required": false,
+          "memory_hits": 0
+        }
+      },
+      {
+        "id": 8,
+        "scenario": "Episode plus semantic explanation",
+        "response": "Async/await giúp xử lý bất đồng bộ. `await` tạm dừng cho đến khi tác vụ hoàn thành.",
+        "match_score": 0.0,
+        "relevance": 1.0,
+        "satisfaction": 1.0,
+        "pass": false,
+        "estimated_tokens": 30,
+        "metrics": {
+          "token_breakdown": {
+            "current_query": 15,
+            "short_term": 149
+          },
+          "context_utilization": 0.25,
+          "memory_required": false,
+          "memory_hits": 0
+        }
+      },
+      {
+        "id": 9,
+        "scenario": "Trim and budget pressure",
+        "response": "Bạn có thể bắt đầu với FastAPI, Django, Node.js Express hoặc Spring tùy mục tiêu học backend.",
+        "match_score": 0.5,
+        "relevance": 3.0,
+        "satisfaction": 3.0,
+        "pass": true,
+        "estimated_tokens": 29,
+        "metrics": {
+          "token_breakdown": {
+            "current_query": 8,
+            "short_term": 152
+          },
+          "context_utilization": 0.25,
+          "memory_required": false,
+          "memory_hits": 0
+        }
+      },
+      {
+        "id": 10,
+        "scenario": "Preference recall after sessions",
+        "response": "Mình đang dựa vào đoạn hội thoại hiện tại để tiếp tục trả lời.",
+        "match_score": 0.0,
+        "relevance": 1.0,
+        "satisfaction": 1.0,
+        "pass": false,
+        "estimated_tokens": 20,
+        "metrics": {
+          "token_breakdown": {
+            "current_query": 9,
+            "short_term": 153
+          },
+          "context_utilization": 0.25,
+          "memory_required": false,
+          "memory_hits": 0
+        }
+      }
+    ],
+    "memory": [
+      {
+        "id": 1,
+        "scenario": "Programming preference recall",
+        "response": "Dựa trên preference đã lưu (thích Python; không thích Java), Mình gợi ý FastAPI nếu bạn muốn học nhanh và xây API gọn, hoặc Django nếu cần stack đầy đủ.",
+        "match_score": 1.0,
+        "relevance": 5.0,
+        "satisfaction": 5.0,
+        "pass": true,
+        "estimated_tokens": 47,
+        "metrics": {
+          "timestamp": "2026-04-24T05:32:20+00:00",
+          "token_breakdown": {
+            "current_query": 10,
+            "preferences": 106,
+            "system_prompt": 120
+          },
+          "total_context_tokens": 236,
+          "context_utilization": 0.449,
+          "memory_required": true,
+          "memory_hits": 1,
+          "retrieved_counts": {
+            "short_term": 0,
+            "preferences": 1,
+            "episodic": 0,
+            "semantic": 0
+          },
+          "route_reason": "Recommendation query benefits from user preferences and conceptual knowledge."
+        }
+      },
+      {
+        "id": 2,
+        "scenario": "Async confusion episode recall",
+        "response": "Có một episode liên quan: User was confused about: Tôi bị rối async await, không hiểu await có block chương trình không.. Knowledge liên quan: Async/await không block toàn bộ chương trình; nó tạm dừng coroutine hiện tại để event loop chạy việc khác. Async/await không block toàn bộ chương trình; nó tạm dừng coroutine hiện tại để event loop chạy việc khác.",
+        "match_score": 1.0,
+        "relevance": 5.0,
+        "satisfaction": 5.0,
+        "pass": true,
+        "estimated_tokens": 101,
+        "metrics": {
+          "timestamp": "2026-04-24T05:32:35+00:00",
+          "token_breakdown": {
+            "current_query": 23,
+            "episodic": 26,
+            "semantic": 30,
+            "short_term": 90,
+            "system_prompt": 120
+          },
+          "total_context_tokens": 289,
+          "context_utilization": 0.194,
+          "memory_required": true,
+          "memory_hits": 2,
+          "retrieved_counts": {
+            "short_term": 4,
+            "preferences": 0,
+            "episodic": 1,
+            "semantic": 1
+          },
+          "route_reason": "The user refers to a previous learning event and asks for explanation."
+        }
+      },
+      {
+        "id": 3,
+        "scenario": "Response style preference",
+        "response": "Decorator là hàm bọc một hàm khác để thêm hành vi. Ví dụ: `@log` trên hàm `hello()` để in log trước khi gọi hàm.",
+        "match_score": 1.0,
+        "relevance": 5.0,
+        "satisfaction": 5.0,
+        "pass": true,
+        "estimated_tokens": 45,
+        "metrics": {
+          "timestamp": "2026-04-24T05:32:50+00:00",
+          "token_breakdown": {
+            "current_query": 8,
+            "short_term": 212,
+            "system_prompt": 120
+          },
+          "total_context_tokens": 340,
+          "context_utilization": 0.0,
+          "memory_required": true,
+          "memory_hits": 0,
+          "retrieved_counts": {
+            "short_term": 6,
+            "preferences": 0,
+            "episodic": 0,
+            "semantic": 0
+          },
+          "route_reason": "The user appears to refer to the current session context."
+        }
+      },
+      {
+        "id": 4,
+        "scenario": "Conflict update allergy",
+        "response": "Dựa trên preference đã lưu (dị ứng đậu nành), Thông tin đang lưu cho thấy bạn dị ứng đậu nành.",
+        "match_score": 1.0,
+        "relevance": 5.0,
+        "satisfaction": 5.0,
+        "pass": true,
+        "estimated_tokens": 32,
+        "metrics": {
+          "timestamp": "2026-04-24T05:33:13+00:00",
+          "token_breakdown": {
+            "current_query": 11,
+            "preferences": 91,
+            "short_term": 11,
+            "system_prompt": 120
+          },
+          "total_context_tokens": 233,
+          "context_utilization": 0.391,
+          "memory_required": true,
+          "memory_hits": 1,
+          "retrieved_counts": {
+            "short_term": 1,
+            "preferences": 1,
+            "episodic": 0,
+            "semantic": 0
+          },
+          "route_reason": "The user appears to refer to the current session context."
+        }
+      },
+      {
+        "id": 5,
+        "scenario": "AI agents learning preference",
+        "response": "Dựa trên preference đã lưu (đang học AI Agents and LangGraph), Vì bạn đang học AI Agents và LangGraph, nên đi tiếp vào memory systems, tool calling và evaluation.",
+        "match_score": 1.0,
+        "relevance": 5.0,
+        "satisfaction": 5.0,
+        "pass": true,
+        "estimated_tokens": 46,
+        "metrics": {
+          "timestamp": "2026-04-24T05:33:28+00:00",
+          "token_breakdown": {
+            "current_query": 12,
+            "preferences": 94,
+            "system_prompt": 120
+          },
+          "total_context_tokens": 226,
+          "context_utilization": 0.416,
+          "memory_required": true,
+          "memory_hits": 1,
+          "retrieved_counts": {
+            "short_term": 0,
+            "preferences": 1,
+            "episodic": 0,
+            "semantic": 0
+          },
+          "route_reason": "Recommendation query benefits from user preferences and conceptual knowledge."
+        }
+      },
+      {
+        "id": 6,
+        "scenario": "Semantic retrieval for async concept",
+        "response": "Async/await không block toàn bộ chương trình; nó tạm dừng coroutine hiện tại để event loop chạy việc khác.",
+        "match_score": 1.0,
+        "relevance": 5.0,
+        "satisfaction": 5.0,
+        "pass": true,
+        "estimated_tokens": 30,
+        "metrics": {
+          "timestamp": "2026-04-24T05:33:42+00:00",
+          "token_breakdown": {
+            "current_query": 11,
+            "short_term": 132,
+            "system_prompt": 120
+          },
+          "total_context_tokens": 263,
+          "context_utilization": 0.0,
+          "memory_required": true,
+          "memory_hits": 0,
+          "retrieved_counts": {
+            "short_term": 6,
+            "preferences": 0,
+            "episodic": 0,
+            "semantic": 0
+          },
+          "route_reason": "Default to recent context when the query is otherwise ambiguous."
+        }
+      },
+      {
+        "id": 7,
+        "scenario": "Mixed recommendation",
+        "response": "Dựa trên preference đã lưu (thích Python), Mình gợi ý FastAPI nếu bạn muốn học nhanh và xây API gọn, hoặc Django nếu cần stack đầy đủ.",
+        "match_score": 1.0,
+        "relevance": 5.0,
+        "satisfaction": 5.0,
+        "pass": true,
+        "estimated_tokens": 42,
+        "metrics": {
+          "timestamp": "2026-04-24T05:33:57+00:00",
+          "token_breakdown": {
+            "current_query": 15,
+            "preferences": 93,
+            "system_prompt": 120
+          },
+          "total_context_tokens": 228,
+          "context_utilization": 0.408,
+          "memory_required": true,
+          "memory_hits": 1,
+          "retrieved_counts": {
+            "short_term": 0,
+            "preferences": 1,
+            "episodic": 0,
+            "semantic": 0
+          },
+          "route_reason": "Recommendation query benefits from user preferences and conceptual knowledge."
+        }
+      },
+      {
+        "id": 8,
+        "scenario": "Episode plus semantic explanation",
+        "response": "Có một episode liên quan: User was confused about: Tôi không hiểu tại sao await không block.. Knowledge liên quan: Async/await không block toàn bộ chương trình; nó tạm dừng coroutine hiện tại để event loop chạy việc khác. Async/await không block toàn bộ chương trình; nó tạm dừng coroutine hiện tại để event loop chạy việc khác.",
+        "match_score": 0.5,
+        "relevance": 3.0,
+        "satisfaction": 3.0,
+        "pass": true,
+        "estimated_tokens": 93,
+        "metrics": {
+          "timestamp": "2026-04-24T05:34:12+00:00",
+          "token_breakdown": {
+            "current_query": 23,
+            "episodic": 19,
+            "semantic": 30,
+            "short_term": 136,
+            "system_prompt": 120
+          },
+          "total_context_tokens": 328,
+          "context_utilization": 0.149,
+          "memory_required": true,
+          "memory_hits": 2,
+          "retrieved_counts": {
+            "short_term": 6,
+            "preferences": 0,
+            "episodic": 1,
+            "semantic": 1
+          },
+          "route_reason": "The user refers to a previous learning event and asks for explanation."
+        }
+      },
+      {
+        "id": 9,
+        "scenario": "Trim and budget pressure",
+        "response": "Dựa trên preference đã lưu (không thích Java), Knowledge liên quan: Mình sẽ trả lời dựa trên query hiện tại và bộ nhớ liên quan để giữ câu trả lời đúng trong ngữ cảnh. Mình gợi ý FastAPI nếu bạn muốn học nhanh và xây API gọn, hoặc Django nếu cần stack đầy đủ.",
+        "match_score": 0.5,
+        "relevance": 3.0,
+        "satisfaction": 3.0,
+        "pass": true,
+        "estimated_tokens": 80,
+        "metrics": {
+          "timestamp": "2026-04-24T05:34:57+00:00",
+          "token_breakdown": {
+            "current_query": 12,
+            "preferences": 93,
+            "semantic": 62,
+            "short_term": 208,
+            "system_prompt": 120
+          },
+          "total_context_tokens": 495,
+          "context_utilization": 0.313,
+          "memory_required": true,
+          "memory_hits": 2,
+          "retrieved_counts": {
+            "short_term": 6,
+            "preferences": 1,
+            "episodic": 0,
+            "semantic": 2
+          },
+          "route_reason": "Recommendation query benefits from user preferences and conceptual knowledge."
+        }
+      },
+      {
+        "id": 10,
+        "scenario": "Preference recall after sessions",
+        "response": "Dựa trên preference đã lưu (thích Python; thích câu trả lời ngắn, có ví dụ), Vì bạn đã hợp với Python, hãy bắt đầu với scripting, `requests`, file processing và task scheduling nhỏ.",
+        "match_score": 0.5,
+        "relevance": 3.0,
+        "satisfaction": 3.0,
+        "pass": true,
+        "estimated_tokens": 58,
+        "metrics": {
+          "timestamp": "2026-04-24T05:35:12+00:00",
+          "token_breakdown": {
+            "current_query": 13,
+            "preferences": 103,
+            "system_prompt": 120
+          },
+          "total_context_tokens": 236,
+          "context_utilization": 0.436,
+          "memory_required": true,
+          "memory_hits": 1,
+          "retrieved_counts": {
+            "short_term": 0,
+            "preferences": 1,
+            "episodic": 0,
+            "semantic": 0
+          },
+          "route_reason": "Recommendation query benefits from user preferences and conceptual knowledge."
+        }
+      }
+    ]
+  },
+  "aggregate": {
+    "baseline": {
+      "response_relevance": 2.0,
+      "user_satisfaction": 2.0,
+      "memory_hit_rate": 0.0,
+      "context_utilization": 0.25,
+      "tokens_per_successful_answer": 51.2,
+      "token_budget_breakdown": {
+        "current_query": {
+          "tokens": 90,
+          "percentage": 8.66
+        },
+        "short_term": {
+          "tokens": 949,
+          "percentage": 91.34
+        }
+      }
+    },
+    "memory": {
+      "response_relevance": 4.4,
+      "user_satisfaction": 4.4,
+      "memory_hit_rate": 0.8,
+      "context_utilization": 0.28,
+      "tokens_per_successful_answer": 57.4,
+      "token_budget_breakdown": {
+        "current_query": {
+          "tokens": 138,
+          "percentage": 4.8
+        },
+        "episodic": {
+          "tokens": 45,
+          "percentage": 1.57
+        },
+        "preferences": {
+          "tokens": 580,
+          "percentage": 20.18
+        },
+        "semantic": {
+          "tokens": 122,
+          "percentage": 4.24
+        },
+        "short_term": {
+          "tokens": 789,
+          "percentage": 27.45
+        },
+        "system_prompt": {
+          "tokens": 1200,
+          "percentage": 41.75
+        }
+      }
+    }
+  }
+}

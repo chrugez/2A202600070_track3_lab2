@@ -1,0 +1,10 @@
+[project]
+name = "lab17-multi-memory-agent"
+version = "0.1.0"
+description = "Lab 17 multi-memory agent with LangGraph, benchmark, and Streamlit demo."
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+

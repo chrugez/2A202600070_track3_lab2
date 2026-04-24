@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+.streamlit/
+memory/chroma/
+memory/preferences_store.json
+memory/semantic_store.jsonl
+# reports/results.json
+*.pyc
+.env
+
